@@ -107,7 +107,7 @@
         let books;
 
 		function fetchDataFromAPI() {
-            var apiUrl = "http://localhost:8012/apps_dimas/main/getBooks";
+            var apiUrl = "http://localhost/apps_dimas/main/getBooks";
 
             $.ajax({
                 url: apiUrl,
